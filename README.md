@@ -1,73 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Staircase 
 
 > Description the project.
+Staircase detail
 
+This is a staircase of size :
 
-## Built With
+   #
+  ##
+ ###
+####
+Its base and height are both equal to . It is drawn using # symbols and spaces. The last line is not preceded by any spaces.
 
-- Major languages
-- Frameworks
-- Technologies used
+Write a program that prints a staircase of size .
 
-## Live Demo (if available)
+Function Description
 
-[Live Demo Link](https://livedemo.com)
+Complete the staircase function in the editor below.
 
+staircase has the following parameter(s):
 
-## Getting Started
+int n: an integer
+Print
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Print a staircase as described above.
 
+Input Format
 
-To get a local copy up and running follow these simple example steps.
+A single integer, , denoting the size of the staircase.
 
-### Prerequisites
+Constraints
 
-### Setup
+ .
 
-### Install
+Output Format
 
-### Usage
+Print a staircase of size  using # symbols and spaces.
 
-### Run tests
+Note: The last line must have  spaces in it.
 
-### Deployment
+Sample Input
 
+6 
+Sample Output
 
+     #
+    ##
+   ###
+  ####
+ #####
+######
+Explanation
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of .
